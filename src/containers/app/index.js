@@ -23,7 +23,8 @@ class App extends Component {
                 <BrowserRouter>
                     <ToastContainer autoClose={2500} position="top-center" />
                     <Switch>
-                        
+                    
+                        <Route exact path="/" component={HomePageOne} />
                         <Route exact path="/home-two" component={HomePageTwo} />
                         <Route exact path="/home-three" component={HomePageThree} />
                         <Route exact path="/about" component={AboutPage} />
